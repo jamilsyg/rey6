@@ -769,6 +769,9 @@ let prefs = ` ▸ ${prefix}`
 const listmn = `*EMILIA MENU*
 ${cekbotinfo}
 
+${ucapanWaktu}
+${jangwak}
+
 STATISTICS BOT
  •> Library : Baileys - Multi Device
  •> Upload : ${cBandwidth.upload}
@@ -970,12 +973,7 @@ INFO GROUP
 ❏ ${prefs}block <add/del>
 ❏ ${prefs}cowner <add/del>
 > / => / $ / <
-
-THANKS TO :
-adiwajshing, MhankBarBar, Nurutomo, ${thnsto}, Oktaku, Rest APIs, Penyedia Module, Mastah Lainya
-
-${ucapanWaktu}
-${jangwak}`
+`
 const qtod = m.quoted? "true":"false"
 
 // Case Nye Sini Ngab
@@ -984,14 +982,14 @@ switch(command) {
 case 'menu': case 'help': {
 if (isBan) return m.reply(mess.ban)
 const templateButtons = [
-{index: 1, urlButton: {displayText: 'Group Whatsapp', url: linkgrupss}}
+{index: 1, urlButton: {displayText: 'Join Group Whatsapp', url: linkgrupss}}
 ]
 const templateMessage = {
 video:fs.readFileSync("./media/video/mans.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
 caption: listmn,
-footer: '© FahmiGanss',
+footer: '© Riyadh',
 templateButtons: templateButtons
 }
 mans.sendMessage(m.chat, templateMessage)
