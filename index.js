@@ -84,7 +84,7 @@ let buttons = [
 let buttonMessage = {
 image: {url:ppgroup},
 caption: teks,
-footer: "© By Pablo`Botz",
+footer: "© By Riyadh",
 buttons: buttons,
 headerType: 4,
 }
@@ -99,7 +99,7 @@ let buttons = [
 let buttonMessage = {
 image: {url:ppgroup},
 caption: teks,
-footer: "© PabloGanss",
+footer: "© Riyadh",
 buttons: buttons,
 headerType: 4,
 }
@@ -197,7 +197,7 @@ let buttons = [
 let buttonMessage = {
 image: fs.readFileSync("./storage/hasil.jpg"),
 caption: mbc,
-footer: "© OnlyDevJs APIs - X - OnlyDevJs Official",
+footer: "© Riyadh APIs - X - Emilia Official",
 mentions:[num],
 buttons: buttons,
 headerType: 4,
@@ -222,7 +222,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: tesgd,
-footer: "© OnlyDevJs APIs - X - OnlyDevJs Official",
+footer: "© Riyadh APIs - X - Emilia Official",
 buttons: buttons,
 mentions: [num],
 headerType: 4,
