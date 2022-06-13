@@ -2365,7 +2365,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Riyadh APIs",
 buttons: buttons,
 headerType: 4
 }
@@ -2389,7 +2389,7 @@ let buttonMessage = {
 image: {url:res[0].icon},
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Riyadh APIs",
 buttons: buttons,
 headerType: 4
 }
@@ -2415,7 +2415,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Riyadh APIs",
 buttons: buttons,
 headerType: 4
 }
@@ -2444,7 +2444,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Riyadh APIs - Emilia",
 buttons: buttons,
 headerType: 4
 }
@@ -2685,7 +2685,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: `*「 Emilia Official 」*\n\nChange Info, Select Open Or Close`,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Riyadh APIs - Emilia",
 buttons: buttons,
 headerType: 4
 }
@@ -2710,8 +2710,8 @@ let buttons = [
 let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
-caption: `*「 ZackMans Official 」*\n\nChange Group Setting, Select Open Or Close`,
-footer: "© MyMans APIs - MyMainas",
+caption: `*「 Emilia Official 」*\n\nChange Group Setting, Select Open Or Close`,
+footer: "© Riyadh APIs - Emilia",
 buttons: buttons,
 headerType: 4
 }
@@ -2784,7 +2784,7 @@ m.reply('Sukses Broadcast')
 }
 break
 case 'sc': case 'script': case 'donate': case 'donasi': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
-teks = `     「 ZackMans Official 」\n\n${zckmn.saweria}\n${zckmn.donate}`
+teks = `     「 Emilia Official 」\n\n${zckmn.saweria}\n${zckmn.donate}`
 for (let i of zckmn.source) {
 teks += `\n\nName : ${i.name}\n${i.link}`
 }
@@ -3291,7 +3291,7 @@ caption: `*| GOOGLE IMAGE |*
 
 🤠 Query : ${text}
 🔗 Media Url : ${images}`,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Riyadh APIs - Emilia",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -3334,7 +3334,7 @@ let buttons = [
 let buttonMessage = {
 image: { url: imgnyee },
 caption:  '⭔ Title : ' + args.join(" ") + '\n⭔ Media Url : '+imgnyee,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Riyadh APIs - Emilia",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -3411,7 +3411,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Riyadh APIs - X - Emilia",
 buttons: buttons,
 headerType: 4
 }
@@ -3447,7 +3447,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Riyadh APIs - Emilia",
 buttons: buttons,
 headerType: 4
 }
@@ -3522,11 +3522,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:lotwit.medias[1].url},
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Riyadh APIs - Emilia",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official - Twitter Downloader",
+title:"Emilia Official - Twitter Downloader",
 body:lotwit.title ? lotwit.title : "Twitter Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3548,11 +3548,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© MyMans APIs - MyMainas",
+footer: "© Riyadh APIs - Emilia",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official - Twitter Downloader",
+title:"Emilia Official - Twitter Downloader",
 body: "Twitter Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3581,11 +3581,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:resd.medias[0].url},
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Riyadh APIs - Emilia",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official - Facebook Downloader",
+title:"Emilia Official - Facebook Downloader",
 body:"facebook downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3607,11 +3607,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© MyMans APIs - MyMainas",
+footer: "© Riyadh APIs - Emilia",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official - Facebook Downloader",
+title:"Emilia Official - Facebook Downloader",
 body: " Facebook Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3643,7 +3643,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.nowm},
 caption: twks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Riyadh APIs - Emilia",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -3692,7 +3692,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.wm},
 caption: twks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Riyadh APIs - Emilia",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -3731,7 +3731,7 @@ caption: `*| YOUTUBE PLAY |*
 ⭔ Channel : ${anu.author.url}
 ⭔ Description : ${anu.description}
 ⭔ Url : ${anu.url}`,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Riyadh APIs - Emilia",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -3765,7 +3765,7 @@ let buttons = [
 let buttonMessage = {
 image: {url:res.thumb},
 caption: textyt,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Riyadh APIs - Emilia",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
