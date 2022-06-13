@@ -11,21 +11,21 @@ const chalk = require("chalk")
 global.thum = fs.readFileSync("./media/image/thumb.jpg")
 global.log0 = fs.readFileSync("./media/image/mans.jpg")
 global.err4r = fs.readFileSync("./media/image/error.jpg")
-global.owner = ['43650400009555','79771471486','43650400009555']
+global.owner = ['6289675134806']
 global.rkyt = []
-global.ntilink = ['120363043965529911@g.us']
+global.ntilink = ['6289675134806-1597035781@g.us']
 global.ntihide = ['120363043965529911@g.us']
-global.ntidel = ['120363043965529911@g.us']
-global.wlcm = ['120363043965529911@g.us']
+global.ntidel = ['6289675134806-1597035781@g.us']
+global.wlcm = ['6289675134806-1597035781@g.us']
 global.autkick = ['120363043965529911@g.us']
 global.gcrevoke = ['16472412324-1386525986@g.us']
 global.wjoind = []
 global.wleaved = []
-global.packname = "Pablo`Botz"
-global.packname2 = "Pablo`Botz"
-global.author = "Pablo`Botz"
-global.sessionName = "PabloGans"
-global.linkgrupss = "https://chat.whatsapp.com/HDmXvmHpEkE9wRJy3IO6OZ"
+global.packname = "Emilia-MD"
+global.packname2 = "@bangreyy_54"
+global.author = "By Riyadh"
+global.sessionName = "session"
+global.linkgrupss = "https://chat.whatsapp.com/ID2jE6SjAzS8fayx8WWBJH"
 global.antitags = true
 global.autred = true
 global.anticals = true
@@ -38,13 +38,13 @@ global.mess = {
     group: 'Fitur Digunakan Hanya Untuk Group Kontol!',
     private: 'Fitur Digunakan Hanya Untuk Private Chat!',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
-    wait: 'Loading Kontol Sabar...',
+    wait: 'Loading Kak Sabar...',
     linkm: 'Linknya Mana Kak?',
     ban: 'Kamu telah dibanned oleh owner, Jika ingin di unbanned chat owner'
 }
 global.limitawal = {
     rakyat: "Infinity",
-    free: 100
+    free: 45
 }
 
 let file = require.resolve(__filename)
