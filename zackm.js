@@ -945,7 +945,6 @@ INFO GROUP
 ❏ ${prefs}listpc <undefined>
 ❏ ${prefs}listgc <undefined>
 ❏ ${prefs}mcserver <query>
-❏ ${prefs}sc <undefined>
 ❏ ${prefs}ping <undefined>
 ❏ ${prefs}thanksto <query>
 ❏ ${prefs}afk <query>
@@ -2783,7 +2782,7 @@ quoted.copyNForward(yoi, true, {quoted:fgclink})
 m.reply('Sukses Broadcast')
 }
 break
-case 'sc': case 'script': case 'donate': case 'donasi': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
+/*case 'sc': case 'script': case 'donate': case 'donasi': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 teks = `     「 Emilia Official 」\n\n${zckmn.saweria}\n${zckmn.donate}`
 for (let i of zckmn.source) {
 teks += `\n\nName : ${i.name}\n${i.link}`
@@ -2810,7 +2809,7 @@ sourceUrl: zckmn.saweria
 }
 mans.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
-break
+break*/
 case 'profile': {
 if (isBan) return m.reply(mess.ban)
 const jidny = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : m.sender ? m.sender : false
@@ -3295,12 +3294,12 @@ footer: "© Riyadh APIs - Emilia",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - Emilia",
+title:"EMILIA DOCS",
 body:"© Riyadh APIs - X - Emilia Official",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/jKAawPBWe5k",
-sourceUrl: "https://youtu.be/jKAawPBWe5k"
+mediaUrl: "https://api-riyadh.herokuapp.com/docs#",
+sourceUrl: "https://api-riyadh.herokuapp.com/docs#"
 }}
 }
 mans.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -3338,12 +3337,12 @@ footer: "© Riyadh APIs - Emilia",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - Emilia",
+title:"EMILIA DOCS",
 body:"© Riyadh APIs - X - Emilia Official",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/jKAawPBWe5k",
-sourceUrl: "https://youtu.be/jKAawPBWe5k"
+mediaUrl: "https://api-riyadh.herokuapp.com/docs#",
+sourceUrl: "https://api-riyadh.herokuapp.com/docs#"
 }}
 }
 mans.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -3473,12 +3472,12 @@ if (isBan) return m.reply(mess.ban)
 if (!args[0]) return m.reply("Linknya mana kak?")
 try {
 mans.sendMessage(from, {video:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - Emilia",
+title:"EMILIA DOCS",
 body:"© Riyadh APIs - X - Emilia Official",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/jKAawPBWe5k",
-sourceUrl: "https://youtu.be/jKAawPBWe5k"
+mediaUrl: "https://api-riyadh.herokuapp.com/docs#",
+sourceUrl: "https://api-riyadh.herokuapp.com/docs#"
 }}}, {quoted:m})
 } catch {
 m.reply("Linknya Error")
@@ -3490,12 +3489,12 @@ if (isBan) return m.reply(mess.ban)
 if (!args[0]) return m.reply("Linknya mana kak?")
 try {
 mans.sendMessage(from, {image:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - Emilia",
+title:"EMILIA DOCS",
 body:"© Riyadh APIs - X - Emilia Official",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/jKAawPBWe5k",
-sourceUrl: "https://youtu.be/jKAawPBWe5k"
+mediaUrl: "https://api-riyadh.herokuapp.com/docs#",
+sourceUrl: "https://api-riyadh.herokuapp.com/docs#"
 }}}, {quoted:m})
 } catch {
 m.reply("Linknya Error")
@@ -3787,24 +3786,24 @@ break
 case 'ytvd': {
 if (isBan) return m.reply(mess.ban)
 mans.sendMessage(from, {video:{url:args[0]}, mimetype:"video/mp4", caption:"Success", contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - Emilia",
+title:"EMILIA DOCS",
 body:"© Riyadh APIs - X - Emilia Official",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/jKAawPBWe5k",
-sourceUrl: "https://youtu.be/jKAawPBWe5k"
+mediaUrl: "https://api-riyadh.herokuapp.com/docs#",
+sourceUrl: "https://api-riyadh.herokuapp.com/docs#"
 }}}, {quoted:m})
 }
 break
 case 'ytad': {
 if (isBan) return m.reply(mess.ban)
 mans.sendMessage(from, {audio:{url:args[0]}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - Emilia",
+title:"EMILIA DOCS",
 body:"© Riyadh APIs - X - Emilia Official",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/jKAawPBWe5k",
-sourceUrl: "https://youtu.be/jKAawPBWe5k"
+mediaUrl: "https://api-riyadh.herokuapp.com/docs#",
+sourceUrl: "https://api-riyadh.herokuapp.com/docs#"
 }}}, {quoted:m})
 }
 break
