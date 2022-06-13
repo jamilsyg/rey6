@@ -1,5 +1,5 @@
 /** 
- - Create By ZackMans Official
+ - Create By Emilia Official
  - Contact Me on https://wa.me/+6281385062956
  - Follow iG : @salman_alfarizi_15
  - Thanks Dika Ardnt
@@ -270,7 +270,7 @@ user.afkReason = ''
 // Detect Group Invite
 if (m.mtype === 'groupInviteMessage') {
 teks = `Ketik join untuk bergabung ke group whatsapp anda`
-sendOrder(m.chat, teks, "391028153034238", fs.readFileSync('./media/image/mans.jpg'), 2022, "ZackMans Official ~ Multi Device", "6283155687629@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
+sendOrder(m.chat, teks, "391028153034238", fs.readFileSync('./media/image/mans.jpg'), 2022, "Emilia Official ~ Multi Device", "6283155687629@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
 }
 
 // Anti Hidetag X-Zons
@@ -328,7 +328,7 @@ if (tebaklagu.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebaklagu[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await mans.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© MyMans APIs - X - ZackMans Official", m)
+await mans.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Riyadh APIs - X - Emilia Official", m)
 delete tebaklagu[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -337,7 +337,7 @@ if (tebakgambar.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebakgambar[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await mans.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© MyMans APIs - X - ZackMans Official", m)
+await mans.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Riyadh APIs - X - Emilia Official", m)
 delete tebakgambar[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -346,7 +346,7 @@ if (tebakkata.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebakkata[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await mans.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© MyMans APIs - X - ZackMans Official", m)
+await mans.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Riyadh APIs - X - Emilia Official", m)
 delete tebakkata[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -356,7 +356,7 @@ kuis = true
 jawaban = caklontong[m.sender.split('@')[0]]
 deskripsi = caklontong_desk[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await mans.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `🎮 Cak Lontong 🎮\n\nJawaban Benar 🎉\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, "© MyMans APIs - X - ZackMans Official", m)
+await mans.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `🎮 Cak Lontong 🎮\n\nJawaban Benar 🎉\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, "© Riyadh APIs - X - Emilia Official", m)
 delete caklontong[m.sender.split('@')[0]]
 delete caklontong_desk[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
@@ -366,7 +366,7 @@ if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebakkalimat[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await mans.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© MyMans APIs - X - ZackMans Official", m)
+await mans.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Riyadh APIs - X - Emilia Official", m)
 delete tebakkalimat[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -375,7 +375,7 @@ if (tebaklirik.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebaklirik[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await mans.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© MyMans APIs - X - ZackMans Official", m)
+await mans.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Riyadh APIs - X - Emilia Official", m)
 delete tebaklirik[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -384,7 +384,7 @@ if (tebaktebakan.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebaktebakan[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await mans.sendButtonText(m.chat, [{ buttonId: 'tebak tebakan', buttonText: { displayText: 'Tebak Tebakan' }, type: 1 }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© MyMans APIs - X - ZackMans Official", m)
+await mans.sendButtonText(m.chat, [{ buttonId: 'tebak tebakan', buttonText: { displayText: 'Tebak Tebakan' }, type: 1 }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Riyadh APIs - X - Emilia Official", m)
 delete tebaktebakan[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -675,8 +675,8 @@ const fgclink = {
 "groupInviteMessage": {
 "groupJid": "120363043965529911@g.us",
 "inviteCode": "HDmXvmHpEkE9wRJy3IO6OZ",
-"groupName": "ZackMans Broadcast", 
-"caption": "ZackMans Broadcast", 
+"groupName": "Emilia Broadcast", 
+"caption": "Emilia Broadcast", 
 'jpegThumbnail': log0
 }
 }
@@ -690,11 +690,11 @@ participant: `0@s.whatsapp.net`, ...(from ?
 },
 message: { 
  "videoMessage": { 
- "title":"ZackMans Official",
+ "title":"Emilia Official",
  "h": `Hmm`,
  'seconds': "30", 
  'gifPlayback': 'true', 
- 'caption': 'ZackMans Official',
+ 'caption': 'Emilia Official',
  'jpegThumbnail': log0
 }
 }
@@ -732,12 +732,12 @@ message: {
 
 // Reply
 async function reply(teks) {
-const relink = ['https://youtu.be/GBe1jHscqAY','https://chat.whatsapp.com/HDmXvmHpEkE9wRJy3IO6OZ']
+const relink = ['https://chat.whatsapp.com/ID2jE6SjAzS8fayx8WWBJH']
 const rurl = relink[Math.floor(Math.random() * relink.length)];
 mamans = teks
 mans.sendMessage(m.chat, {text:mamans, mentions: await mans.parseMention(mamans), contextInfo:{externalAdReply:{
 title: `${ucapanWaktu} ${pushname}`,
-body: "© MyMans APIs - X - ZackMans Official",
+body: "© Riyadh APIs - X - Emilia Official",
 thumbnail: thum,
 mediaType:1,
 mediaUrl: rurl,
@@ -749,9 +749,9 @@ sourceUrl: rurl
 const zckmn = await fetchJson("https://ZackMans.github.io/database/zackbotmans.json")
 const ceknyai = require('./package.json').version
 if (zckmn.update === ceknyai) {
-cekbotinfo = `Anda menggunakan zackbotmans versi terbaru (${ceknyai}), belum ada update dari owner`
+cekbotinfo = `Anda menggunakan emilia versi terbaru (${ceknyai}), belum ada update dari owner`
 } else {
-cekbotinfo = `Anda menggunakan zackbotmans v${ceknyai}, owner telah mengupdate zackbotmans ke v${zckmn.update}, ketik cekupdate untuk melihat versi terbaru`
+cekbotinfo = `Anda menggunakan emilia v${ceknyai}, owner telah mengupdate Emilia bot ke v${zckmn.update}, ketik cekupdate untuk melihat versi terbaru`
 }
 
 let getjson = await mans.query({
@@ -766,8 +766,7 @@ content: [{ tag: "invite", attrs: { code: "KEDT4a47m1Q0A5yATttez0" } }]
 let thnsto = getjson.content[0].content[0].content[0].content ? getjson.content[0].content[0].content[0].content.toString() : 'undefined'
 let cBandwidth = await checkBandwidth()
 let prefs = ` ▸ ${prefix}`
-const listmn = `*ROBOT WHATSAPP MULTI DEVICE*
-_Script By FahmiBotz-Md - X - FahmiBotz_
+const listmn = `*EMILIA MENU*
 ${cekbotinfo}
 
 STATISTICS BOT
@@ -793,187 +792,187 @@ INFO GROUP
  -> Welcome : ${welcm? "on" : "off"}
  -> Antidelete : ${AntiDelete? "on" : "off"}
 
-GROUP MENU
-${prefs}linkgroup <undefined>
-${prefs}setppgc <image>
-${prefs}setname <query>
-${prefs}setdesc <query>
-${prefs}ephemeral <query>
-${prefs}hidetag <query>
-${prefs}tagall <query>
-${prefs}promote <query>
-${prefs}demote <query>
-${prefs}vote <query>
-${prefs}devote <undefined>
-${prefs}upvote <undefined>
-${prefs}cekvote <undefined>
-${prefs}hapusvote <undefined>
-${prefs}antidelete <on/off>
-${prefs}antilink <on/off>
-${prefs}antihidetag <on/off>
-${prefs}autokick <on/off>
-${prefs}welcome <on/off>
-${prefs}autorevoke <on/off>
-${prefs}setwelcome <query>
-${prefs}add <query>
-${prefs}kick <query>
-${prefs}revoke <undefined>
-${prefs}group <open/close>
-${prefs}editinfo <open/close>
+*┌─「 Group Menu 」*
+❏ ${prefs}linkgroup <undefined>
+❏ ${prefs}setppgc <image>
+❏ ${prefs}setname <query>
+❏ ${prefs}setdesc <query>
+❏ ${prefs}ephemeral <query>
+❏ ${prefs}hidetag <query>
+❏ ${prefs}tagall <query>
+❏ ${prefs}promote <query>
+❏ ${prefs}demote <query>
+❏ ${prefs}vote <query>
+❏ ${prefs}devote <undefined>
+❏ ${prefs}upvote <undefined>
+❏ ${prefs}cekvote <undefined>
+❏ ${prefs}hapusvote <undefined>
+❏ ${prefs}antidelete <on/off>
+❏ ${prefs}antilink <on/off>
+❏ ${prefs}antihidetag <on/off>
+❏ ${prefs}autokick <on/off>
+❏ ${prefs}welcome <on/off>
+❏ ${prefs}autorevoke <on/off>
+❏ ${prefs}setwelcome <query>
+❏ ${prefs}add <query>
+❏ ${prefs}kick <query>
+❏ ${prefs}revoke <undefined>
+❏ ${prefs}group <open/close>
+❏ ${prefs}editinfo <open/close>
 
-DOWNLOADER
-${prefs}instagram <query>
-${prefs}tiktok <query>
-${prefs}twitter <query>
-${prefs}facebook <query>
-${prefs}youtube <query>
-${prefs}igstory <query>
-${prefs}mediafire <query>
-${prefs}gitclone <query>
-${prefs}jpeg <query>
-${prefs}mp4 <query>
+*┌─「 Dwonloader 」*
+❏ ${prefs}instagram <query>
+❏ ${prefs}tiktok <query>
+❏ ${prefs}twitter <query>
+❏ ${prefs}facebook <query>
+❏ ${prefs}youtube <query>
+❏ ${prefs}igstory <query>
+❏ ${prefs}mediafire <query>
+❏ ${prefs}gitclone <query>
+❏ ${prefs}jpeg <query>
+❏ ${prefs}mp4 <query>
 
-SEARCH MENU
-${prefs}gimage <query>
-${prefs}ytsearch <query>
-${prefs}searchgc <query>
-${prefs}play <query>
-${prefs}happymod <query>
-${prefs}servermc <undefined>
-${prefs}mcpedl <query>
-${prefs}google <query>
-${prefs}pinterest <query>
+*┌─「 Search Menu 」*
+❏ ${prefs}gimage <query>
+❏ ${prefs}ytsearch <query>
+❏ ${prefs}searchgc <query>
+❏ ${prefs}play <query>
+❏ ${prefs}happymod <query>
+❏ ${prefs}servermc <undefined>
+❏ ${prefs}mcpedl <query>
+❏ ${prefs}google <query>
+❏ ${prefs}pinterest <query>
 
-CONVERT MENU
-${prefs}sticker <image/video>
-${prefs}smeme <image>
-${prefs}stickerwm <reply>
-${prefs}styletext <query>
-${prefs}removebg <query>
-${prefs}ttp <query>
-${prefs}attp <query>
-${prefs}emojimix <query>
-${prefs}emojimix2 <query>
-${prefs}tomp3 <video>
-${prefs}tovn <video>
-${prefs}toaudio <video>
-${prefs}togif <video>
-${prefs}tourl <query>
-${prefs}tomp4 <sticker>
-${prefs}toimage <sticker>
+*┌─「 Convert Menu 」*
+❏ ${prefs}sticker <image/video>
+❏ ${prefs}smeme <image>
+❏ ${prefs}stickerwm <reply>
+❏ ${prefs}styletext <query>
+❏ ${prefs}removebg <query>
+❏ ${prefs}ttp <query>
+❏ ${prefs}attp <query>
+❏ ${prefs}emojimix <query>
+❏ ${prefs}emojimix2 <query>
+❏ ${prefs}tomp3 <video>
+❏ ${prefs}tovn <video>
+❏ ${prefs}toaudio <video>
+❏ ${prefs}togif <video>
+❏ ${prefs}tourl <query>
+❏ ${prefs}tomp4 <sticker>
+❏ ${prefs}toimage <sticker>
 
-TOOLS MENU
-${prefs}profile <query>
-${prefs}inspect <query>
-${prefs}getcase <query>
-${prefs}getname <query>
-${prefs}getpic <query>
-${prefs}nulis <query>
-${prefs}kalkulator <query>
-${prefs}get <query>
-${prefs}quoted <query>
-${prefs}join <query>
-${prefs}fliptext <query>
-${prefs}tohuruf <query>
-${prefs}volume <quer>
-${prefs}bass <query>
-${prefs}tempo <query>
-${prefs}translate <query>
+*┌─「 Tools Menu 」*
+❏ ${prefs}profile <query>
+❏ ${prefs}inspect <query>
+❏ ${prefs}getcase <query>
+❏ ${prefs}getname <query>
+❏ ${prefs}getpic <query>
+❏ ${prefs}nulis <query>
+❏ ${prefs}kalkulator <query>
+❏ ${prefs}get <query>
+❏ ${prefs}quoted <query>
+❏ ${prefs}join <query>
+❏ ${prefs}fliptext <query>
+❏ ${prefs}tohuruf <query>
+❏ ${prefs}volume <quer>
+❏ ${prefs}bass <query>
+❏ ${prefs}tempo <query>
+❏ ${prefs}translate <query>
 
-PRIMBON MENU
-${prefs}nomorhoki <query>
-${prefs}artimimpi <query>
-${prefs}artinama <query>
-${prefs}ramaljodoh <query>
-${prefs}ramaljodohbali <query>
-${prefs}suamiistri <query>
-${prefs}ramalcinta <query>
-${prefs}cocoknama <query>
-${prefs}pasangan <query>
-${prefs}jadiannikah <query>
-${prefs}sifatusaha <query>
-${prefs}rezeki <query>
-${prefs}pekerjaan <query>
-${prefs}nasib <query>
-${prefs}penyakit <query>
-${prefs}tarot <query>
-${prefs}fengshui <query>
-${prefs}haribaik <query>
-${prefs}harisangar <query>
-${prefs}harisial <query>
-${prefs}nagahari <query>
-${prefs}arahrezeki <query>
-${prefs}peruntungan <query>
-${prefs}weton <query>
-${prefs}karakter <query>
-${prefs}keberuntungan <query>
-${prefs}memancing <query>
-${prefs}masasubur <query>
-${prefs}zodiak <query>
-${prefs}shio <query>
+*┌─「 Primbon Menu 」*
+❏ ${prefs}nomorhoki <query>
+❏ ${prefs}artimimpi <query>
+❏ ${prefs}artinama <query>
+❏ ${prefs}ramaljodoh <query>
+❏ ${prefs}ramaljodohbali <query>
+❏ ${prefs}suamiistri <query>
+❏ ${prefs}ramalcinta <query>
+❏ ${prefs}cocoknama <query>
+❏ ${prefs}pasangan <query>
+❏ ${prefs}jadiannikah <query>
+❏ ${prefs}sifatusaha <query>
+❏ ${prefs}rezeki <query>
+❏ ${prefs}pekerjaan <query>
+❏ ${prefs}nasib <query>
+❏ ${prefs}penyakit <query>
+❏ ${prefs}tarot <query>
+❏ ${prefs}fengshui <query>
+❏ ${prefs}haribaik <query>
+❏ ${prefs}harisangar <query>
+❏ ${prefs}harisial <query>
+❏ ${prefs}nagahari <query>
+❏ ${prefs}arahrezeki <query>
+❏ ${prefs}peruntungan <query>
+❏ ${prefs}weton <query>
+❏ ${prefs}karakter <query>
+❏ ${prefs}keberuntungan <query>
+❏ ${prefs}memancing <query>
+❏ ${prefs}masasubur <query>
+❏ ${prefs}zodiak <query>
+❏ ${prefs}shio <query>
 
-HAPPY MENU
-${prefs}halah <query>
-${prefs}hilih <query>
-${prefs}huluh <query>
-${prefs}heleh <query>
-${prefs}holoh <query>
-${prefs}math <query>
-${prefs}tictactoe <query>
-${prefs}delttt <query>
-${prefs}tebak <query>
-${prefs}family100 <undefined>
-${prefs}suitpvp <query>
+*┌─「 Game Menu 」*
+❏ ${prefs}halah <query>
+❏ ${prefs}hilih <query>
+❏ ${prefs}huluh <query>
+❏ ${prefs}heleh <query>
+❏ ${prefs}holoh <query>
+❏ ${prefs}math <query>
+❏ ${prefs}tictactoe <query>
+❏ ${prefs}delttt <query>
+❏ ${prefs}tebak <query>
+❏ ${prefs}family100 <undefined>
+❏ ${prefs}suitpvp <query>
 
-MAKER MENU
-${prefs}textmaker <option>
+*┌─「 Maker Menu 」*
+❏ ${prefs}textmaker <option>
 
-DATABASE
-${prefs}setcmd <query>
-${prefs}listcmd <undefined>
-${prefs}delcmd <query>
-${prefs}lockcmd <query>
-${prefs}addmsg <query>
-${prefs}listmsg <undefined>
-${prefs}getmsg <query>
-${prefs}delmsg <query>
+*┌─「 Database 」*
+❏ ${prefs}setcmd <query>
+❏ ${prefs}listcmd <undefined>
+❏ ${prefs}delcmd <query>
+❏ ${prefs}lockcmd <query>
+❏ ${prefs}addmsg <query>
+❏ ${prefs}listmsg <undefined>
+❏ ${prefs}getmsg <query>
+❏ ${prefs}delmsg <query>
 
-OTHER
-${prefs}owner <undefined>
-${prefs}listpc <undefined>
-${prefs}listgc <undefined>
-${prefs}mcserver <query>
-${prefs}sc <undefined>
-${prefs}ping <undefined>
-${prefs}thanksto <query>
-${prefs}afk <query>
-${prefs}spam <query>
-${prefs}cekupdate [UpdateBot]
-${prefs}getscmd [GetSticker]
-${prefs}listblock [ListBanned]
-${prefs}delete <query>
-${prefs}infochat <query>
-${prefs}request <query>
-${prefs}report <query>
-${prefs}donate <undefined>
-${prefs}listonline <undefined>
+*┌─「 Other Menu 」*
+❏ ${prefs}owner <undefined>
+❏ ${prefs}listpc <undefined>
+❏ ${prefs}listgc <undefined>
+❏ ${prefs}mcserver <query>
+❏ ${prefs}sc <undefined>
+❏ ${prefs}ping <undefined>
+❏ ${prefs}thanksto <query>
+❏ ${prefs}afk <query>
+❏ ${prefs}spam <query>
+❏ ${prefs}cekupdate [UpdateBot]
+❏ ${prefs}getscmd [GetSticker]
+❏ ${prefs}listblock [ListBanned]
+❏ ${prefs}delete <query>
+❏ ${prefs}infochat <query>
+❏ ${prefs}request <query>
+❏ ${prefs}report <query>
+❏ ${prefs}donate <undefined>
+❏ ${prefs}listonline <undefined>
 
-OWNER MENU
-${prefs}self <undefined>
-${prefs}public <undefined>
-${prefs}bcall <query>
-${prefs}bcgroup <query>
-${prefs}chat <query>
-${prefs}anticall <query>
-${prefs}antitag <query>
-${prefs}autoread <query>
-${prefs}ban <add/del>
-${prefs}block <add/del>
-${prefs}cowner <add/del>
+*┌─「 Owner Menu 」*
+❏ ${prefs}self <undefined>
+❏ ${prefs}public <undefined>
+❏ ${prefs}bcall <query>
+❏ ${prefs}bcgroup <query>
+❏ ${prefs}chat <query>
+❏ ${prefs}anticall <query>
+❏ ${prefs}antitag <query>
+❏ ${prefs}autoread <query>
+❏ ${prefs}ban <add/del>
+❏ ${prefs}block <add/del>
+❏ ${prefs}cowner <add/del>
 > / => / $ / <
 
 THANKS TO :
-adiwajshing, MhankBarBar, Nurutomo, MyMans APIs - X - ZackMans Official, ${thnsto}, Heroku, Replit, Railway, Termux, Rest APIs, Penyedia Module, FahmiBotz Officiial, Mastah Lainya
+adiwajshing, MhankBarBar, Nurutomo, ${thnsto}, Oktaku, Rest APIs, Penyedia Module, Mastah Lainya
 
 ${ucapanWaktu}
 ${jangwak}`
@@ -1451,7 +1450,7 @@ let buttons = [
 let buttonMessage = {
 image: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Riyadh APIs - Emilia",
 buttons: buttons,
 headerType: 4,
 }
@@ -1574,11 +1573,11 @@ case 'textmaker': {
 if (isBan) return m.reply(mess.ban)
 if (args.length < 1) return m.reply(`Example :\n${prefix + command} <name>`)
 if (args[0] === 'glitch') {
-if (args.length < 2) return m.reply(`Example :\n${prefix + command + ' ' + args[0]} ZackMans`)
+if (args.length < 2) return m.reply(`Example :\n${prefix + command + ' ' + args[0]} Emilia`)
 let teds = await thiccysapi.textpro("https://textpro.me/create-impressive-glitch-text-effects-online-1027.html", [args[1]])
 mans.sendMessage(from, {image:{url:teds}, caption:"Done!"}, {quoted:m})
 } else if (args[0] === 'glow') {
-if (args.length < 2) return m.reply(`Example :\n${prefix + command + ' ' + args[0]} ZackMans`)
+if (args.length < 2) return m.reply(`Example :\n${prefix + command + ' ' + args[0]} Emilia`)
 let teds = await thiccysapi.textpro("https://textpro.me/create-light-glow-sliced-text-effect-online-1068.html", [args[1]])
 mans.sendMessage(from, {image:{url:teds}, caption:"Done!"}, {quoted:m})
 } else {
@@ -1647,7 +1646,7 @@ tebaklagu[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-mans.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© MyMans APIs - X - ZackMans Official", m)
+mans.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Riyadh APIs - X - Emilia Official", m)
 delete tebaklagu[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'gambar') {
@@ -1660,7 +1659,7 @@ tebakgambar[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-mans.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`,"© MyMans APIs - X - ZackMans Official", m)
+mans.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`,"© Riyadh APIs - X - Emilia Official", m)
 delete tebakgambar[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'kata') {
@@ -1673,7 +1672,7 @@ tebakkata[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-mans.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© MyMans APIs - X - ZackMans Official", m)
+mans.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Riyadh APIs - X - Emilia Official", m)
 delete tebakkata[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'kalimat') {
@@ -1686,7 +1685,7 @@ tebakkalimat[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-mans.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© MyMans APIs - X - ZackMans Official", m)
+mans.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Riyadh APIs - X - Emilia Official", m)
 delete tebakkalimat[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'lirik') {
@@ -1699,7 +1698,7 @@ tebaklirik[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-mans.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© MyMans APIs - X - ZackMans Official", m)
+mans.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Riyadh APIs - X - Emilia Official", m)
 delete tebaklirik[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'lontong') {
@@ -1713,7 +1712,7 @@ caklontong_desk[m.sender.split('@')[0]] = result.deskripsi
 await sleep(60000)
 if (caklontong.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-mans.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© MyMans APIs - X - ZackMans Official", m)
+mans.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Riyadh APIs - X - Emilia Official", m)
 delete caklontong[m.sender.split('@')[0]]
 delete caklontong_desk[m.sender.split('@')[0]]
 }
@@ -1857,7 +1856,7 @@ let buttonMessageVote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© Riyadh APIs - X - Emilia Official",
 buttons: buttonsVote,
 headerType: 1
 }
@@ -1901,7 +1900,7 @@ let buttonMessageUpvote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© Riyadh APIs - X - Emilia Official",
 buttons: buttonsUpvote,
 headerType: 1,
 mentions: menvote
@@ -1946,7 +1945,7 @@ let buttonMessageDevote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© Riyadh APIs - X - Emilia Official",
 buttons: buttonsDevote,
 headerType: 1,
 mentions: menvote
@@ -2121,7 +2120,7 @@ rows: listMsgs
 
 const listMessage = {
 text: "ketuk button dibawah untuk melihat daftar list respon message, ketuk lagi untuk menjalankan fiturnya",
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© Riyadh APIs - X - Emilia Official",
 title: "     「 List Respon Message 」",
 buttonText: "List Message",
 sections
@@ -2525,7 +2524,7 @@ rows: listSerch
 ]
 const listMessage = {
 text: teskd,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© Riyadh APIs - X - Emilia Official",
 title: "     「 Youtube Search Downloader 」",
 buttonText: "List Search",
 mentions: await mans.parseMention(teskd),
@@ -2635,13 +2634,13 @@ if (!m.isGroup) return m.reply(mess.group)
 let response = await mans.groupInviteCode(m.chat)
 mans.sendMessage(m.chat, {text:`Link Group ${groupMetadata.subject} : \nhttps://chat.whatsapp.com/${response}l`, "contextInfo": {
 mimetype: "image/jpeg",
-text: "ZackMans Official",
+text: "Emilia Official",
 "forwardingScore": 1000000000,
 isForwarded: true,
 sendEphemeral: true,
 "externalAdReply": {
-"title": `ZackMans Official`,
-"body": `Subscribe To Channel YouTube ZackMans Official`,
+"title": `Emilia Official`,
+"body": `Subscribe To Channel YouTube Emilia Official`,
 "previewType": "PHOTO",
 "thumbnailUrl": thum,
 "thumbnail": thum,
@@ -2687,7 +2686,7 @@ let buttons = [
 let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
-caption: `*「 ZackMans Official 」*\n\nChange Info, Select Open Or Close`,
+caption: `*「 Emilia Official 」*\n\nChange Info, Select Open Or Close`,
 footer: "© MyMans APIs - MyMainas",
 buttons: buttons,
 headerType: 4
@@ -2791,7 +2790,7 @@ teks = `     「 ZackMans Official 」\n\n${zckmn.saweria}\n${zckmn.donate}`
 for (let i of zckmn.source) {
 teks += `\n\nName : ${i.name}\n${i.link}`
 }
-teks += `\n\n${zckmn.group}\n\nPassword : ZackMansOfficial\nDont Forget Donate`
+teks += `\n\n${zckmn.group}\n\nPassword : EmiliaOfficial\nDont Forget Donate`
 let buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'Menu'}, type: 1}
 ]
@@ -2803,7 +2802,7 @@ footer: "© " + zckmn.author,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official Saweria ( Donate )",
+title:"Emilia Official Saweria ( Donate )",
 body: "© " + zckmn.author,
 thumbnail: fs.readFileSync("media/image/saweria.jpg"),
 mediaType:1,
@@ -2896,7 +2895,7 @@ content: [{ tag: "invite", attrs: { code: vcc } }]
 sizny = res.content[0].attrs.size
 if (sizny < 50) {
 teks = `Maaf anggota group anda kurang dari 50, minimal agar bot join harus mempunyai lebih dari 50 anggota`
-sendOrder(m.chat, teks, "667140254502463", fs.readFileSync('./media/image/mans.jpg'), 2022, "ZackMans Official ~ Multi Device", "6283155687629@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
+sendOrder(m.chat, teks, "667140254502463", fs.readFileSync('./media/image/mans.jpg'), 2022, "Emilia Official ~ Multi Device", "6283155687629@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
 } else if (sizny > 50) {
 await mans.groupAcceptInvite(vcc).then(async(res) => m.reply(jsonformat(res))).catch(_ => _)
 m.reply("Succes")
@@ -3298,8 +3297,8 @@ footer: "© MyMans APIs - MyMainas",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© MyMans APIs - X - ZackMans Official",
+title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - Emilia",
+body:"© Riyadh APIs - X - Emilia Official",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/jKAawPBWe5k",
@@ -3341,8 +3340,8 @@ footer: "© MyMans APIs - MyMainas",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© MyMans APIs - X - ZackMans Official",
+title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - Emilia",
+body:"© Riyadh APIs - X - Emilia Official",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/jKAawPBWe5k",
@@ -3377,7 +3376,7 @@ rows: listBloxk
 
 const listMessage = {
 text: teskd,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© Riyadh APIs - X - Emilia Official",
 title: "     「 List Participants Blockir 」",
 buttonText: "List Blockir",
 mentions: await mans.parseMention(teskd),
@@ -3476,8 +3475,8 @@ if (isBan) return m.reply(mess.ban)
 if (!args[0]) return m.reply("Linknya mana kak?")
 try {
 mans.sendMessage(from, {video:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© MyMans APIs - X - ZackMans Official",
+title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - Emilia",
+body:"© Riyadh APIs - X - Emilia Official",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/jKAawPBWe5k",
@@ -3493,8 +3492,8 @@ if (isBan) return m.reply(mess.ban)
 if (!args[0]) return m.reply("Linknya mana kak?")
 try {
 mans.sendMessage(from, {image:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© MyMans APIs - X - ZackMans Official",
+title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - Emilia",
+body:"© Riyadh APIs - X - Emilia Official",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/jKAawPBWe5k",
@@ -3650,7 +3649,7 @@ footer: "© MyMans APIs - MyMainas",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official - Tiktok Downloader",
+title:"Emilia Official - Tiktok Downloader",
 body: "Downloader!", // Ttnye.meta.title ? Ttnye.meta.title : "Downloader!"
 thumbnail: thum, // {url:Ttnye.thumb ? Ttnye.thumb : thum}
 mediaType:1,
@@ -3669,7 +3668,7 @@ if (isBan) return m.reply(mess.ban)
 let res = await hx.ttdownloader(args[0]) // atau bisa pake aiovideodl
 // let Ttnye = await bochil.savefrom(args[0])
 mans.sendMessage(from, {audio:{url:res.wm}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdReply:{
-title:"ZackMans Official - Tiktok Downloader",
+title:"Emilia Official - Tiktok Downloader",
 body: "Downloader!", // Ttnye.meta.title ? Ttnye.meta.title : "Downloader!",
 thumbnail: thum, // {url:Ttnye.thumb ? Ttnye.thumb : thum},
 mediaType:1,
@@ -3699,7 +3698,7 @@ footer: "© MyMans APIs - MyMainas",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official - Tiktok Downloader",
+title:"Emilia Official - Tiktok Downloader",
 body: "Downloader!", //Ttnye.meta.title ? Ttnye.meta.title : "Downloader!",
 thumbnail: thum, // {url:Ttnye.thumb ? Ttnye.thumb : thum},
 mediaType:1,
@@ -3739,7 +3738,7 @@ buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: anu.title,
-body: "© MyMans APIs - X - ZackMans Official",
+body: "© Riyadh APIs - X - Emilia Official",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: anu.url,
@@ -3773,7 +3772,7 @@ buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: res.title,
-body: "© MyMans APIs - X - ZackMans Official",
+body: "© Riyadh APIs - X - Emilia Official",
 thumbnail: thum,
 mediaType:2,
 mediaUrl: args[0],
@@ -3790,8 +3789,8 @@ break
 case 'ytvd': {
 if (isBan) return m.reply(mess.ban)
 mans.sendMessage(from, {video:{url:args[0]}, mimetype:"video/mp4", caption:"Success", contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© MyMans APIs - X - ZackMans Official",
+title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - Emilia",
+body:"© Riyadh APIs - X - Emilia Official",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/jKAawPBWe5k",
@@ -3802,8 +3801,8 @@ break
 case 'ytad': {
 if (isBan) return m.reply(mess.ban)
 mans.sendMessage(from, {audio:{url:args[0]}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© MyMans APIs - X - ZackMans Official",
+title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - Emilia",
+body:"© Riyadh APIs - X - Emilia Official",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/jKAawPBWe5k",
