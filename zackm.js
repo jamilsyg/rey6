@@ -2988,7 +2988,7 @@ m.reply("Kirim video/audio")
 break
 case 'nulis': {
 if (isBan) return m.reply(mess.ban)
-if (args.length < 1) return m.reply(`Example :\n${prefix}nulis MyMainas|91|#ff020a|Manusia terganteng adalah salman alfarizi`)
+if (args.length < 1) return m.reply(`Kirim perintah ${prefix}nulis nama|umur|warnatext|text\nExample :\n${prefix}nulis Rey|18|hitam|Assalamualaikum kak`)
 const nls = args.join(" ")
 const nams = "Nama : " + nls.split("|")[0];
 const kels = "Kelas : " + nls.split("|")[1];
@@ -3387,7 +3387,7 @@ m.reply("Tidak ada user yang diblockir")
 break
 case 'igstory': case 'instagramstory': {
 if (isBan) return m.reply(mess.ban)
-if (!args[0]) return m.reply(`Example :\n${prefix + command} salman_alfarizi_15`)
+if (!args[0]) return m.reply(`Example :\n${prefix + command} bangreyy_54`)
 try {
 hx.igstory(args[0]).then(async(resed) => {
 ini_anu = []
@@ -3809,7 +3809,7 @@ sourceUrl: "https://api-riyadh.herokuapp.com/docs#"
 break
 case 'swm': case 'stickerwm': {
 if (isBan) return m.reply(mess.ban)
-if (!args.join(" ")) return m.reply(`Example :\nswm MyMans APIs | MyMainas`)
+if (!args.join(" ")) return m.reply(`Example :\nswm Riyadh APIs | Emilia`)
 const swn = args.join(" ")
 const pcknm = swn.split("|")[0];
 const atnm = swn.split("|")[1];
