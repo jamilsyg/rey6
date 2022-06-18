@@ -32,10 +32,10 @@ global.anticals = true
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.mess = {
     success: 'Success',
-    admin: 'Fitur Khusus Admin Group Kontol!',
+    admin: 'Fitur Khusus Admin Group!',
     botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
-    owner: 'Lu Siapa Fitur Khusus Owner Bot Kontol',
-    group: 'Fitur Digunakan Hanya Untuk Group Kontol!',
+    owner: 'Lu Siapa Fitur Khusus Owner Bot',
+    group: 'Fitur Digunakan Hanya Untuk Group!',
     private: 'Fitur Digunakan Hanya Untuk Private Chat!',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
     wait: 'Loading Kak Sabar...',
