@@ -1,10 +1,3 @@
-/** 
- - Create By Emilia Official
- - Contact Me on https://wa.me/+6281385062956
- - Follow iG : @salman_alfarizi_15
- - Thanks Dika Ardnt
-*/
-
 require("./config")
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType, WAFlag } = require('@adiwajshing/baileys')
 const zmans = require("@adiwajshing/baileys")
@@ -765,8 +758,10 @@ content: [{ tag: "invite", attrs: { code: "KEDT4a47m1Q0A5yATttez0" } }]
 })
 let thnsto = getjson.content[0].content[0].content[0].content ? getjson.content[0].content[0].content[0].content.toString() : 'undefined'
 let cBandwidth = await checkBandwidth()
-let prefs = ` ▸ ${prefix}`
-const listmn = `*EMILIA MENU*
+let prefs = ` ${prefix}`
+const listmn = `Bwa><
+Watashi Wa Emilia Chan
+
 ${cekbotinfo}
 
 ${ucapanWaktu}
@@ -981,7 +976,23 @@ switch(command) {
 case 'menu': case 'help': {
 if (isBan) return m.reply(mess.ban)
 const templateButtons = [
-{index: 1, urlButton: {displayText: 'Join Group Whatsapp', url: linkgrupss}}
+{index: 1, urlButton: {displayText: 'Join Group Whatsapp', url: linkgrupss} 
+			    },{
+                                callButton: {
+                                    displayText: 'Number Phone Owner',
+                                    phoneNumber: 'wa.me/+6289675134806'
+                                }
+                            },{
+                                quickReplyButton: {
+                                    displayText: 'Status Bot',
+                                    id: 'ping'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: 'Contact Owner',
+                                    id: 'owner'
+                                }  
+                            }}
 ]
 const templateMessage = {
 video:fs.readFileSync("./media/video/mans.mp4"),
@@ -1132,7 +1143,7 @@ mans.sendText(m.chat, `▸ *Mimpi :* ${anu.message.mimpi}\n▸ *Arti :* ${anu.me
 break
 case 'ramalanjodoh': case 'ramaljodoh': {
 if (isBan) return m.reply(mess.ban)
-if (!text) return m.reply(`Example : ${prefix + command} Salman, 22, 7, 2015, Aina, 16, 3, 2015`)
+if (!text) return m.reply(`Example : ${prefix + command} Rey, 22, 7, 2015, Aina, 16, 3, 2015`)
 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
 let anu = await primbon.ramalan_jodoh(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
 if (anu.status == false) return m.reply(anu.message)
@@ -1141,7 +1152,7 @@ mans.sendText(m.chat, `▸ *Nama Anda :* ${anu.message.nama_anda.nama}\n▸ *Lah
 break
 case 'ramalanjodohbali': case 'ramaljodohbali': {
 if (isBan) return m.reply(mess.ban)
-if (!text) return m.reply(`Example : ${prefix + command} Salman, 22, 7, 2015, Aina, 16, 3, 2015`)
+if (!text) return m.reply(`Example : ${prefix + command} Rey, 22, 7, 2015, Aina, 16, 3, 2015`)
 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
 let anu = await primbon.ramalan_jodoh_bali(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
 if (anu.status == false) return m.reply(anu.message)
@@ -1150,7 +1161,7 @@ mans.sendText(m.chat, `▸ *Nama Anda :* ${anu.message.nama_anda.nama}\n▸ *Lah
 break
 case 'suamiistri': {
 if (isBan) return m.reply(mess.ban)
-if (!text) return m.reply(`Example : ${prefix + command} Salman, 22, 7, 2015, Aina, 16, 3, 2015`)
+if (!text) return m.reply(`Example : ${prefix + command} Rey, 22, 7, 2015, Aina, 16, 3, 2015`)
 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
 let anu = await primbon.suami_istri(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
 if (anu.status == false) return m.reply(anu.message)
@@ -1159,7 +1170,7 @@ mans.sendText(m.chat, `▸ *Nama Suami :* ${anu.message.suami.nama}\n▸ *Lahir 
 break
 case 'ramalancinta': case 'ramalcinta': {
 if (isBan) return m.reply(mess.ban)
-if (!text) return m.reply(`Example : ${prefix + command} Salman, 22, 7, 2015, Aina, 16, 3, 2015`)
+if (!text) return m.reply(`Example : ${prefix + command} Rey, 22, 7, 2015, Aina, 16, 3, 2015`)
 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
 let anu = await primbon.ramalan_cinta(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
 if (anu.status == false) return m.reply(anu.message)
@@ -1168,7 +1179,7 @@ mans.sendText(m.chat, `▸ *Nama Anda :* ${anu.message.nama_anda.nama}\n▸ *Lah
 break
 case 'artinama': {
 if (isBan) return m.reply(mess.ban)
-if (!text) return m.reply(`Example : ${prefix + command} Salman`)
+if (!text) return m.reply(`Example : ${prefix + command} Rey`)
 let anu = await primbon.arti_nama(text)
 if (anu.status == false) return m.reply(anu.message)
 mans.sendText(m.chat, `▸ *Nama :* ${anu.message.nama}\n▸ *Arti :* ${anu.message.arti}\n▸ *Catatan :* ${anu.message.catatan}`, m)
@@ -1176,7 +1187,7 @@ mans.sendText(m.chat, `▸ *Nama :* ${anu.message.nama}\n▸ *Arti :* ${anu.mess
 break
 case 'kecocokannama': case 'cocoknama': {
 if (isBan) return m.reply(mess.ban)
-if (!text) return m.reply(`Example : ${prefix + command} Salman, 22, 7, 2015`)
+if (!text) return m.reply(`Example : ${prefix + command} Rey, 22, 7, 2015`)
 let [nama, tgl, bln, thn] = text.split`,`
 let anu = await primbon.kecocokan_nama(nama, tgl, bln, thn)
 if (anu.status == false) return m.reply(anu.message)
@@ -1185,7 +1196,7 @@ mans.sendText(m.chat, `▸ *Nama :* ${anu.message.nama}\n▸ *Lahir :* ${anu.mes
 break
 case 'kecocokanpasangan': case 'cocokpasangan': case 'pasangan': {
 if (isBan) return m.reply(mess.ban)
-if (!text) return m.reply(`Example : ${prefix + command} Salman|Aina`)
+if (!text) return m.reply(`Example : ${prefix + command} Rey|Mila`)
 let [nama1, nama2] = text.split`|`
 let anu = await primbon.kecocokan_nama_pasangan(nama1, nama2)
 if (anu.status == false) return m.reply(anu.message)
@@ -1257,7 +1268,7 @@ mans.sendImage(m.chat, anu.message.image, `▸ *Lahir :* ${anu.message.tgl_lahir
 break
 case 'fengshui': {
 if (isBan) return m.reply(mess.ban)
-if (!text) return m.reply(`Example : ${prefix + command} Salman, 1, 2005\n\nNote : ${prefix + command} Nama, gender, tahun lahir\nGender : 1 untuk laki-laki & 2 untuk perempuan`)
+if (!text) return m.reply(`Example : ${prefix + command} Rey, 1, 2005\n\nNote : ${prefix + command} Nama, gender, tahun lahir\nGender : 1 untuk laki-laki & 2 untuk perempuan`)
 let [nama, gender, tahun] = text.split`,`
 let anu = await primbon.perhitungan_feng_shui(nama, gender, tahun)
 if (anu.status == false) return m.reply(anu.message)
@@ -1311,7 +1322,7 @@ mans.sendText(m.chat, `▸ *Hari Lahir :* ${anu.message.hari_lahir}\n▸ *tangga
 break
 case 'peruntungan': {
 if (isBan) return m.reply(mess.ban)
-if (!text) return m.reply(`Example : ${prefix + command} Salman, 22, 7, 2015, 2022\n\nNote : ${prefix + command} Nama, tanggal lahir, bulan lahir, tahun lahir, untuk tahun`)
+if (!text) return m.reply(`Example : ${prefix + command} Rey, 22, 7, 2015, 2022\n\nNote : ${prefix + command} Nama, tanggal lahir, bulan lahir, tahun lahir, untuk tahun`)
 let [nama, tgl, bln, thn, untuk] = text.split`,`
 let anu = await primbon.ramalan_peruntungan(nama, tgl, bln, thn, untuk)
 if (anu.status == false) return m.reply(anu.message)
@@ -1329,7 +1340,7 @@ mans.sendText(m.chat, `▸ *Tanggal :* ${anu.message.tanggal}\n▸ *Jumlah Neptu
 break
 case 'sifat': case 'karakter': {
 if (isBan) return m.reply(mess.ban)
-if (!text) return m.reply(`Example : ${prefix + command} Salman, 22, 7, 2015`)
+if (!text) return m.reply(`Example : ${prefix + command} Rey, 22, 7, 2015`)
 let [nama, tgl, bln, thn] = text.split`,`
 let anu = await primbon.sifat_karakter_tanggal_lahir(nama, tgl, bln, thn)
 if (anu.status == false) return m.reply(anu.message)
@@ -1338,7 +1349,7 @@ mans.sendText(m.chat, `▸ *Nama :* ${anu.message.nama}\n▸ *Lahir :* ${anu.mes
 break
 case 'keberuntungan': {
 if (isBan) return m.reply(mess.ban)
-if (!text) return m.reply(`Example : ${prefix + command} Salman, 22, 7, 2015`)
+if (!text) return m.reply(`Example : ${prefix + command} Rey, 22, 7, 2015`)
 let [nama, tgl, bln, thn] = text.split`,`
 let anu = await primbon.potensi_keberuntungan(nama, tgl, bln, thn)
 if (anu.status == false) return m.reply(anu.message)
