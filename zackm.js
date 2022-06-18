@@ -2871,7 +2871,7 @@ mans.sendFile(m.chat, pp, "", m, { caption: tekse, mentions: await mans.parseMen
 }
 break
 case 'join': {
-if (isBan) return m.reply(mess.ban)
+if (!isCreator) return m.reply(mess.owner)
 if (!args[0]) return m.reply("Linknya mana kak?")
 vdd = args[0]
 let vcc = vdd.split("https://chat.whatsapp.com/")[1]
