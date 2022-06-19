@@ -976,24 +976,7 @@ switch(command) {
 case 'menu': case 'help': {
 if (isBan) return m.reply(mess.ban)
 const templateButtons = [
-{index: 1, urlButton: {displayText: 'Join Group Whatsapp', url: linkgrupss
-			    },{
-                                callButton: {
-                                    displayText: 'Number Phone Owner',
-                                    phoneNumber: 'wa.me/+6289675134806'
-                                }
-                            },{
-                                quickReplyButton: {
-                                    displayText: 'Status Bot',
-                                    id: 'ping'
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'Contact Owner',
-                                    id: 'owner'
-                                }  
-                            }}
-]
+{index: 1, urlButton: {displayText: 'Join Group Whatsapp', url: linkgrupss }}]
 const templateMessage = {
 video:fs.readFileSync("./media/video/mans.mp4"),
 gifPlayback:true,
