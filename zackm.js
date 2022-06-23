@@ -976,7 +976,7 @@ switch(command) {
 case 'menu': case 'help': {
 if (isBan) return m.reply(mess.ban)
 const templateButtons = [
-{index: 1, urlButton: {displayText: 'Join Group Whatsapp', url: linkgrupss }}]
+{index: 1, urlButton: {displayText: 'Follow Instagram', url: linkgrupss }}]
 const templateMessage = {
 video:fs.readFileSync("./media/video/mans.mp4"),
 gifPlayback:true,
